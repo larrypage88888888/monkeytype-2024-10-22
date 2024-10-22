@@ -1,0 +1,24 @@
+.test-options {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.test-options button {
+  background: none;
+  border: none;
+  color: var(--text-color-dimmed);
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.test-options button.active {
+  color: var(--accent-color);
+  background-color: rgba(226, 183, 20, 0.2);
+}
+
+.time-options {
+  display: flex;
+  gap: 0.5rem;
+}
